@@ -15,7 +15,7 @@ function Header() {
   return !path.includes('aiform')&&(
     <div className='p-3 px-5 border-b shadow-sm'>
         <div className='flex items-center justify-between'>
-            <Image src={'/logo.png'} 
+            <Image src={'/logo1.png'} 
             width={180} height={50} alt='logo'/>
             {isSignedIn?
             <div className='flex items-center gap-5'>
