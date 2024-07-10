@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"],
+  darkMode: false, // Desactivar el modo oscuro
   content: [
     './pages/**/*.{js,jsx}',
     './components/**/*.{js,jsx}',
@@ -75,8 +75,31 @@ module.exports = {
   },
   daisyui: {
     themes: [
-      "light",
-      "dark",
+      {
+        name: "light",
+        colors: {
+          "primary": "#7f57f1",
+          "primary-focus": "#6e49de",
+          "primary-content": "#ffffff",
+          "secondary": "#e0e0e0",
+          "secondary-focus": "#cfcfcf",
+          "secondary-content": "#000000",
+          "accent": "#37cdbe",
+          "accent-focus": "#2aa79b",
+          "accent-content": "#ffffff",
+          "neutral": "#3d4451",
+          "neutral-focus": "#2a2e37",
+          "neutral-content": "#ffffff",
+          "base-100": "#ffffff",
+          "base-200": "#f9fafb",
+          "base-300": "#d1d5db",
+          "base-content": "#1f2937",
+          "info": "#2094f3",
+          "success": "#009485",
+          "warning": "#ff9900",
+          "error": "#ff5724",
+        },
+      },
       "cupcake",
       "bumblebee",
       "emerald",
@@ -109,6 +132,5 @@ module.exports = {
       "sunset",
     ],
   },
-  plugins: [require("tailwindcss-animate"),
-  require('daisyui'),],
+  plugins: [require("tailwindcss-animate"), require('daisyui')],
 }

@@ -23,12 +23,12 @@ function SideNav() {
             icon:MessageSquare,
             path:'/dashboard/responses'
         },
-        {
+        /*{
             id:1,
             name:'Analytics',
             icon:LineChart,
             path:'/dashboard/analytics'
-        },
+        },*/
         {
             id:1,
             name:'Upgrade',

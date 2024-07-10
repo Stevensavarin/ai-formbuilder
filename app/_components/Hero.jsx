@@ -18,74 +18,75 @@ function Hero() {
 
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <a
-          className="block w-full rounded bg-primary px-12 py-3 text-sm font-medium text-white shadow hover:bg-purple-600 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
+          className="block w-full rounded bg-primary px-12 py-3 text-sm font-medium text-white shadow hover:bg-purple-600 focus:outline-none focus:ring active:bg-purple-500 sm:w-auto"
           href="#"
         >
           + Create AI Form
         </a>
 
-        <a
+        {/* <a
           className="block w-full rounded px-12 py-3 text-sm font-medium text-primary shadow hover:text-purple-600 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
           href="#"
         >
           Learn More
-        </a>
+        </a> */}
       </div>
     </div>
   </div>
   {/* <img src='/grid.svg' className=' absolute w-full h-[400px] '/> */}
 <section className="">
-  <div className="mx-auto max-w-screen-xl px-4 py-56 ">
+  <div className="mx-auto max-w-screen-xl px-4 py-56 pb-12">
     <div className="mx-auto max-w-lg text-center">
       <h2 className="text-3xl font-bold sm:text-4xl">How it Works</h2>
 
       <p className="mt-4 text-gray-300">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
-        nesciunt eos fugiat. Vitae aperiam fugit consequuntur saepe laborum.
+      Our AI makes it easy to create forms. 
+      Just enter your needs and our advanced artificial 
+      intelligence will generate a custom form, 
+      then review and edit as needed, and deploy your form instantly. 
+      It's that quick and easy!
       </p>
     </div>
 
     <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
       <a
-        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-purple-500/10 hover:shadow-purple-500/10"
         href="#"
       >
        <AtomIcon className='h-8 w-8'/>
 
-        <h2 className="mt-4 text-xl font-bold text-black">Write promot for your form</h2>
+       <h2 className="mt-4 text-xl font-bold text-black">Write prompt for your form</h2>
 
         <p className="mt-1 text-sm text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-          distinctio alias voluptatum blanditiis laudantium.
+          Create perfect forms in minutes with our advanced AI. Just tell us what you need, and we'll take care of the rest. Easy, fast, and hassle-free.
         </p>
       </a>
+      
 
       <a
-        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-purple-500/10 hover:shadow-purple-500/10"
         href="#"
       >
-      <Edit className='h-8 w-8'/>
+        <Edit className='h-8 w-8'/>
 
-        <h2 className="mt-4 text-xl font-bold text-black">Edit Your form </h2>
+        <h2 className="mt-4 text-xl font-bold text-black">Edit Your Form</h2>
 
         <p className="mt-1 text-sm text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-          distinctio alias voluptatum blanditiis laudantium.
+          Customize your form effortlessly with our intuitive editor. Make adjustments in just a few clicks and get the perfect form tailored to your needs.
         </p>
       </a>
 
       <a
-        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-purple-500/10 hover:shadow-purple-500/10"
         href="#"
       >
       <Share2 className='h-8 w-8' />
 
-        <h2 className="mt-4 text-xl font-bold text-black">Share & Start Accepting Responses</h2>
+      <h2 className="mt-4 text-xl font-bold text-black">Share & Start Accepting Responses</h2>
 
-        <p className="mt-1 text-sm text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-          distinctio alias voluptatum blanditiis laudantium.
-        </p>
+      <p className="mt-1 text-sm text-gray-600">
+        Share your form with a click and start collecting responses instantly. Seamlessly gather and analyze data with ease.
+      </p>
       </a>
 
     
@@ -94,7 +95,7 @@ function Hero() {
     <div className="mt-12 text-center">
       <a
         href="/sign-in"
-        className="inline-block rounded bg-pink-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400"
+        className="inline-block rounded bg-purple-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-700 focus:outline-none focus:ring focus:ring-blue-400"
       >
         Get Started Today
       </a>
